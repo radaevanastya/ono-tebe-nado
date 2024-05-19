@@ -44,10 +44,8 @@
     height: 105px;
   }
   
-  .header__address {
+  .address {
     display: flex;
-    padding-right: 32px;
-    padding-left: 193px;
     line-height: 24.3px;
     flex-direction: column;
     justify-self: end;
@@ -89,6 +87,7 @@
   
   .lots__card-list {
     display: flex;
+    flex-wrap: wrap;
     list-style: none;
     gap: 25px;
     padding-bottom: 30px;
@@ -133,7 +132,7 @@
   
   .card {
     display: flex;
-    min-width: 334px;
+    max-width: 334px;
     min-height: 563px;
     width: 100%;
     height: 100%;
@@ -277,12 +276,4 @@
     list-style: none;
     gap: 48px;
     justify-content: flex-end;
-  }
-  
-  .footer__address {
-    display: flex;
-    line-height: 24.3px;
-    flex-direction: column;
-    justify-self: end;
-    font-style: normal;
   }
